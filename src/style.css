@@ -1,0 +1,67 @@
+body {
+  margin: 30px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  color: #5f7f89;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+.weather-app {
+  border: 1px solid #dfe9f3;
+  border-radius: 10px;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  max-width: 800px;
+  padding: 0;
+}
+.upperpart {
+  padding: 15px 15px 10px 20px;
+}
+
+.search-form {
+  margin: 5px 0px;
+}
+
+.col-3 {
+  padding: 3px;
+}
+
+.leftpart {
+  text-align: left;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -50px;
+  margin-right: 10px;
+}
+
+.moredata {
+  text-align: left;
+}
+
+.card-title {
+  font-style: italic;
+  font-size: small;
+}
+
+.card-text:hover {
+  transform: scale(1.5);
+}
+
+.video-playerr__container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+}
